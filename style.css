@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: rgb(247, 2, 2);
+    padding: 25px; /* preenchimento */
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+#pizzacabeçalho {
+    width: 40px;
+    display: inline;
+    margin-left: 0px;
+}
+
+    .navegação {
+        background-color: rgb(255, 239, 12);  
+        color: rgb(20, 20, 20);         
+        padding: 8px;              
+        display: flex;            
+        justify-content: center; 
+        align-items: center;    
+    }
+
+    footer {
+        background-color: rgb(248, 4, 4);
+        color: aliceblue;
+        display: flex;
+        justify-content: center;
+        padding: 8px;
+}
+
+.cardapio {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(230, 161, 144);
+    padding: 150px;
+}
+
+#img2 {
+    width: 250px;
+
+}
+
+#paragrafo {
+    width: 255px;
+    display: flex;
+    align-items: center;
+}
+
+.subcardapio {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 75px;
+}
+
+#img3 {
+    width: 300px;
+}
+
+#paragrafo2 {
+    width: 255px;
+    display: flex;
+    align-items: center;
+}
+
+.FormClass{
+    max-width: 900px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+    
+    }
+
+.inputContainer{
+    width: 80%;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items:  center;
+
+}
+
+.inputContainer label{
+    flex: 30%;
+    margin-right: 10px;
+}
+
+.inputContainer input{
+    flex: 70%;
+    border-radius: 10%;
+    background-color: rgb(77, 77, 77);
+}
+.inputContainer input:hover{
+    
+    background-color: rgb(41, 160, 168);
+}
+.FormClass{
+    text-align: center;
+}
+
